@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.parallax1 {
+    background-image: url('https://plus.unsplash.com/premium_photo-1664299749481-ac8dc8b49754?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2F0fGVufDB8fDB8fHww'); 
+}
+
+.parallax2 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/12/08/05/41/cat-8436848_1280.jpg');
+}
+
+.content {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
